@@ -1,0 +1,65 @@
+﻿@model TeamProject.Models.Branch
+@using TeamProject.Models;
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <h2 class="text-center">Branch Details</h2>
+    <div class="row">
+        <div class="col-sm">
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.User.Firstname)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.User.Firstname)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Name)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Longitude)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Longitude)
+                </dd>
+
+         
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Address)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Address)
+                </dd>
+
+            </dl>
+        </div>
+        <div class="col-sm">
+            <hr />
+            <h4>@Html.DisplayNameFor(model => model.ImageBranch)</h4>
+
+            <dl class="dl-horizontal">                
+                <dd>
+                    <img src="~/Images/Branches/@Model.ImageBranch" alt="@Model.Name" style="width:200px;" />
+                </dd>
+            </dl>
+        </div>
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to Branches", "Index")
+</p>
