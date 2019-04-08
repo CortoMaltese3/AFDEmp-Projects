@@ -1,2 +1,2 @@
 # AFDEmp-Projects
-Contains the Projects of the Coding Bootcamp6
+This repository contains the Projects assigned to me during my training at PeopleCert's AFDEmp C# Coding BootCamp
