@@ -1,0 +1,1 @@
+[17/1/2019 4:48:33 μμ] - User giorgos has deleted the TT with [ID = 2008] assigned to you. In case of emergency, contact the super_admin

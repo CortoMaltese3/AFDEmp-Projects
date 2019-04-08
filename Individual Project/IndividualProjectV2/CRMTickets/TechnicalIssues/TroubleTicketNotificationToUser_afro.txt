@@ -1,0 +1,11 @@
+NOTIFICATIONS LOG
+[11/1/2019 12:06:53 πμ] - User afro has assigned a new TT to you. Visit the View TT Section for more details
+[11/1/2019 12:07:12 πμ] - User afro has marked the TT with [ID = 2014] that was assigned to you as closed. Visit the View TT Section for more details
+[11/1/2019 12:09:57 πμ] - User giorgos has assigned a new TT to you. Visit the View TT Section for more details
+[11/1/2019 12:10:38 πμ] - User afro has marked the TT with [ID = 2015] that was assigned to you as closed. Visit the View TT Section for more details
+[16/1/2019 2:28:35 μμ] - User giorgos has deleted the TT with [ID = 2015] assigned to you. In case of emergency, contact the super_admin
+[17/1/2019 1:27:04 μμ] - User admin has assigned a new TT to you. Visit the View TT Section for more details
+[17/1/2019 4:47:36 μμ] - User giorgos has deleted the TT with [ID = 2014] assigned to you. In case of emergency, contact the super_admin
+[17/1/2019 4:56:14 μμ] - User giorgos has assigned a new TT to you. Visit the View TT Section for more details
+[17/1/2019 5:05:36 μμ] - User giorgos has assigned a new TT to you. Visit the View TT Section for more details
+[17/1/2019 5:07:47 μμ] - User afro has assigned a new TT to you. Visit the View TT Section for more details

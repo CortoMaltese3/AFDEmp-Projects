@@ -1,0 +1,4 @@
+﻿NOTIFICATIONS LOG
+[11/1/2019 12:11:37 πμ] - User giorgos has deleted the TT with [ID = 2] assigned to you. In case of emergency, contact the super_admin
+[16/1/2019 2:28:04 μμ] - User giorgos has marked the TT with [ID = 2013] that was assigned to you as closed. Visit the View TT Section for more details
+[17/1/2019 4:33:08 μμ] - User giorgos has assigned a new TT to you. Visit the View TT Section for more details[18/1/2019 8:58:41 μμ] - User giorgos has assigned a new TT to you. Visit the View TT Section for more details
