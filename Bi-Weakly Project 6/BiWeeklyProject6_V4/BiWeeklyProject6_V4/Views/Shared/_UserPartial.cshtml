@@ -1,0 +1,23 @@
+﻿@*@model BiWeeklyProject6_V4.Models.User*@
+@*@model IEnumerable<BiWeeklyProject6_V4.Models.User>*@
+
+@if (User.IsInRole("Manager"))
+{
+
+    {
+        int notifications = 0;
+
+        <ul class="nav navbar-nav">
+            <li>@Html.ActionLink("Users", "Index", "Users", routeValues: null, htmlAttributes: new { id = "userLink" })</li>
+            <li>@Html.ActionLink($"New Requests ({notifications})", "NotRegisteredIndex", "Users", routeValues: null, htmlAttributes: new { id = "userLink" })</li>
+        </ul>
+
+    }
+}
+else if (User.IsInRole("Architect") || User.IsInRole("Analyst") || User.IsInRole("Tester") || User.IsInRole("Programmer"))
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Documents", "Index", "Documents", routeValues: null, htmlAttributes: new { id = "documentLink" })</li>
+    </ul>
+}
+

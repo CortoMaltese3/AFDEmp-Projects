@@ -1,0 +1,35 @@
+﻿@model IEnumerable<BiWeeklyProject6_V4.Models.User>
+
+
+<h2>Non-Registered Users</h2>
+
+<br />
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Username)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserRole)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserRole)
+            </td>
+            <td>
+                @Html.ActionLink("Accept", "SetRegisteredUserToActive", new { id = item.Id }) |                
+                @Html.ActionLink("Decline", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
